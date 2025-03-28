@@ -6,7 +6,7 @@ game.StarterGui:SetCore("SendNotification", {
       Title = "Winnable Hub", 
       Text = "Game Detected : Dead Sails"
   })
-loadstring(game:HttpGet("https://pastebin.com/raw/EbqWXKTg"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Flexy-Hub/FlexyHub/refs/heads/main/Deads.lua"))()
 elseif map == 87039211657390 or map == 128336380114944 then
 game.StarterGui:SetCore("SendNotification", {
       Icon = "rbxassetid://11634040122";
