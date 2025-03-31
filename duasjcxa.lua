@@ -1,4 +1,4 @@
-_G.Settings.Mob_Selection_Model = "JB1"
+_G.Settings = game:service('HttpService'):JSONDecode(readfile("WinnableHub/AriseCrossover.JSON"))
 
 function AreAllMobsDead()
     for i2,v2 in pairs(workspace.__Main.__Enemies.Client:GetChildren()) do
