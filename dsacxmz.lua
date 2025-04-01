@@ -19,11 +19,13 @@ ydasdx = v222
 dasujxc = v222:GetAttributes()
 dasydcs = v222:GetAttributes()
 
+if _G.Settings.Auto_Farm_Selection and _G.Settings.No_Delay then
 for model2e1,model2e12 in dasujxc do
 for doubleg,doubleb in dasydcs do
 if model2e1 == "Id" and model2e12 == _G.Settings.Mob_Selection_Model then
 if doubleg == "Dead" and doubleb == false then
 goto(v222.CFrame)
+end
 end
 end
 end
