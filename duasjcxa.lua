@@ -13,6 +13,4 @@ function AreAllMobsDead()
     return true 
 end
 
-print(AreAllMobsDead())
-
-dwasd = AreAllMobsDead()
+callout = AreAllMobsDead()
