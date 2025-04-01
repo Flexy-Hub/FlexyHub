@@ -13,4 +13,6 @@ function yessir()
     return true
 end
 
+yessir()
+
 callout = yessir()
