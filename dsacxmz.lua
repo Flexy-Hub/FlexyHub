@@ -1,5 +1,3 @@
-_G.Settings = game:service('HttpService'):JSONDecode(readfile("WinnableHub/AriseCrossover.JSON"))
-
 function goto(va)
 if _G.Settings.Farm_way == "Teleport" then
             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = va
