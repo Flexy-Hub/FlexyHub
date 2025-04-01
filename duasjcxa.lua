@@ -1,5 +1,3 @@
-_G.Settings = game:service('HttpService'):JSONDecode(readfile("WinnableHub/AriseCrossover.JSON"))
-
 function yessir()
     for i2,v2 in pairs(workspace.__Main.__Enemies.Client:GetChildren()) do
         for i,v in v2:GetAttributes() do
