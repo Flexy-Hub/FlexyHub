@@ -1,3 +1,47 @@
+local api = loadstring(game:HttpGet("https://sdkapi-public.luarmor.net/library.lua"))()
+
+api.script_id = "2ce7e630501737f0c9ee24a2e809565d"
+
+function CheckKey()
+    local script_key = script_key
+    local status = api.check_key(script_key);
+        if status.code == "KEY_VALID" then
+    if status.data.note == "Ad Reward" then
+        Premiums = false
+    else
+        Premiums = true
+    end
+            return true
+        elseif status.code == "KEY_INCORRECT" then
+            return false
+        elseif status.code == "KEY_HWID_LOCKED" then
+            game.StarterGui:SetCore("SendNotification", {
+    Icon = "rbxassetid://11634040122";
+    Title = "Winnable Hub", 
+    Text = "[Error] Key Linked With Other Hwid.."
+})
+        end
+end;
+
+function Script()
+    if CheckKey() then
+local api = loadstring(game:HttpGet("https://sdkapi-public.luarmor.net/library.lua"))()
+
+api.script_id = "2ce7e630501737f0c9ee24a2e809565d"
+
+    script_key = script_key
+    end
+end
+if not CheckKey() then
+
+else
+    if CheckKey() then
+
+    end
+end
+
+print(Premiums)
+
 map = game.PlaceId
  
 if map == 85832836496852 or map == 71945043676322 then -- Dead Sails
