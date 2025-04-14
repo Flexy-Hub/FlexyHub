@@ -72,4 +72,11 @@ game.StarterGui:SetCore("SendNotification", {
       Text = "Game Detected : Hunters"
   })
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Flexy-Hub/FlexyHub/refs/heads/main/hunters.lua"))()
+elseif map == 126884695634066 then
+game.StarterGui:SetCore("SendNotification", {
+      Icon = "rbxassetid://11634040122";
+      Title = "Winnable Hub", 
+      Text = "Game Detected : Grow a Garden"
+  })
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Winnable-Hub/WinnableKey/refs/heads/main/grow.lua"))()
 end
