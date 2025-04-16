@@ -86,5 +86,11 @@ game.StarterGui:SetCore("SendNotification", {
       Text = "Game Detected : Bubble Gum Simulator INFINITY"
   })
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Winnable-Hub/Loader/refs/heads/main/bbgsi.lua"))()
-
+elseif map == 72829404259339 then
+game.StarterGui:SetCore("SendNotification", {
+      Icon = "rbxassetid://11634040122";
+      Title = "Winnable Hub", 
+      Text = "Game Detected : Anime Rangers X"
+  })
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Winnable-Hub/Sakon/refs/heads/main/konlaos.lua"))()
 end
