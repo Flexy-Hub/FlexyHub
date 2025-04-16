@@ -79,4 +79,12 @@ game.StarterGui:SetCore("SendNotification", {
       Text = "Game Detected : Grow a Garden"
   })
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Winnable-Hub/WinnableKey/refs/heads/main/grow.lua"))()
+elseif map == 85896571713843 then
+game.StarterGui:SetCore("SendNotification", {
+      Icon = "rbxassetid://11634040122";
+      Title = "Winnable Hub", 
+      Text = "Game Detected : Bubble Gum Simulator INFINITY"
+  })
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Winnable-Hub/Loader/refs/heads/main/bbgsi.lua"))()
+
 end
