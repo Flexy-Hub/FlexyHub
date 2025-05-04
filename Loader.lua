@@ -104,6 +104,14 @@ game.StarterGui:SetCore("SendNotification", {
       Text = "Game Detected : Anime Rangers X"
   })
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Winnable-Hub/Sakon/refs/heads/main/konlaos.lua"))()
+elseif map == 86782616351214 then
+DidExecuted = true
+game.StarterGui:SetCore("SendNotification", {
+      Icon = "rbxassetid://11634040122";
+      Title = "Winnable Hub", 
+      Text = "Game Detected : Anime Galaxy"
+  })
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Winnable-Hub/Loader/refs/heads/main/agl.lua"))()
 elseif game:GetService("Players").LocalPlayer:FindFirstChild("AcceptLeaderboardRewards") then
 DidExecuted = true
 game.StarterGui:SetCore("SendNotification", {
